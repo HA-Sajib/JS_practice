@@ -32,3 +32,16 @@ switch(day){
     default:
         throw new Error('Invalid Day');
 }
+
+
+// conditional statement
+
+const theme = 'dak'
+let bgColor = theme == 'dark' ? "#11111" :" #fefefe";
+console.log(bgColor)
+
+// if(theme == 'dark'){
+//     console.log("bg color #111111")
+// } else{
+//     console.log('bg color #fefefe')
+// }
