@@ -25,3 +25,19 @@
 // console.log(typeof d)
 // console.log(typeof e)
 // console.log(typeof f)
+
+                          // For loop
+
+// for(i=1; i<10; i++){
+//     console.log(i + ' Hello Bangladesh')
+// }
+
+for(i=2; i<=20; i+=2){
+    console.log(i +' print even number only')
+}
+
+let sum = 0
+for(i=1; i<10; i++){
+    sum = sum = i;
+    console.log('sum = ', sum, ' i = ', i, 'sum = i = ', sum+i)
+}

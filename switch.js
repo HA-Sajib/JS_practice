@@ -37,7 +37,7 @@ switch(day){
 // conditional statement
 
 const theme = 'dak'
-let bgColor = theme == 'dark' ? "#11111" :" #fefefe"; // question mark true or false return korbe. jodi true hoy colon er ager ongso kaj korbe, false hole clone er porer ongso kaj korbe.
+let bgColor = theme == 'dark' ? "#11111" :" #fefefe"; // question mark true or false return korbe. jodi true hoy colon er ager ongso kaj korbe, false hole clone er porer ongso kaj korbe. clone , semi clone is called conditional operator.
 console.log(bgColor)
 
 // if(theme == 'dark'){
