@@ -32,12 +32,33 @@
 //     console.log(i + ' Hello Bangladesh')
 // }
 
-for(i=2; i<=20; i+=2){
-    console.log(i +' print even number only')
-}
+// for(i=2; i<=20; i+=2){
+//     console.log(i +' print even number only')
+// }
 
-let sum = 0
-for(i=1; i<10; i++){
-    sum = sum = i;
-    console.log('sum = ', sum, ' i = ', i, 'sum = i = ', sum+i)
+// let sum = 0
+// for(i=1; i<10; i++){
+//     sum = sum = i;
+//     console.log('sum = ', sum, ' i = ', i, 'sum = i = ', sum+i)
+// }
+
+
+                    // whole loop
+
+// let i = 1
+// while(i<10){
+//     console.log(i +' helloo')
+//     i++
+// } 
+
+                // for in loop - index 
+
+const namee = 'sajib';
+for(let i in namee){
+    console.log(i)
+}
+                // for of loop - value
+const numm = "Seven"
+for(let v of numm){
+    console.log(v)
 }
