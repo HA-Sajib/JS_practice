@@ -34,10 +34,23 @@
 
 // console.log(r1,r2,r3)
 
-function RectangleParameter(height,width){
-    let paraMeter = 2*(height + width)// (2*height) + (2*width)
-    return paraMeter;
+// function RectangleParameter(height,width){
+//     let paraMeter = 2*(height + width)// (2*height) + (2*width)
+//     return paraMeter;
+// }
+
+// let paraMeter = RectangleParameter(10,20)
+// console.log(paraMeter)
+
+// Convert Age to Days
+
+function yearsToDays(year){
+    let days = 365*year
+    return days;
 }
 
-let paraMeter = RectangleParameter(10,20)
-console.log(paraMeter)
+let y1 = yearsToDays(1);
+let y2 = yearsToDays(2)
+let y3 = yearsToDays(3)
+
+console.log(y1,y2,y3)
