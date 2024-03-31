@@ -8,3 +8,28 @@
 // let r3 = sum(50,60)
 
 // console.log(r1,r2,r3)
+
+// How To Find The Perimeter Of A Rectangle
+
+// function paraMeterOfRactangle(h,w){
+//     let height = h*2
+//     let weidth = w*2
+//     const paraMeter = height + weidth;
+//     return paraMeter;
+// }
+
+// let r2 = paraMeterOfRactangle(2,2);
+// console.log(r2)
+
+function RectangleParameter(h,w){
+    let height = 2*h;
+    let weidth = 2*h;
+    let paraMeter = height + weidth;
+    return paraMeter;
+}
+
+let r1 = RectangleParameter(10,20)
+let r2 = RectangleParameter(30,20)
+let r3 = RectangleParameter(40,22)
+
+console.log(r1,r2,r3)
