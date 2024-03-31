@@ -44,13 +44,22 @@
 
 // Convert Age to Days
 
-function yearsToDays(year){
-    let days = 365*year
-    return days;
+// function yearsToDays(year){
+//     let days = 365*year
+//     return days;
+// }
+
+// let y1 = yearsToDays(1);
+// let y2 = yearsToDays(2)
+// let y3 = yearsToDays(3)
+
+// console.log(y1,y2,y3)
+
+// Return the First Element in an Array
+
+function getFirstELement(anyArray){
+    return anyArray[1];
 }
 
-let y1 = yearsToDays(1);
-let y2 = yearsToDays(2)
-let y3 = yearsToDays(3)
-
-console.log(y1,y2,y3)
+console.log(getFirstELement([2,3,4,5]))
+console.log(getFirstELement(["aam","jaam","kolaa","diim"]))
