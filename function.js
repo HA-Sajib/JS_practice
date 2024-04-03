@@ -11,12 +11,12 @@
 
 // How To Find The Perimeter Of A Rectangle
 
-// function paraMeterOfRactangle(h,w){
-//     let height = h*2
-//     let weidth = w*2
-//     const paraMeter = height + weidth;
-//     return paraMeter;
-// }
+function paraMeterOfRactangle(h,w){
+    let height = h*2
+    let weidth = w*2
+    const paraMeter = height + weidth;
+    return paraMeter;
+}
 
 // let r2 = paraMeterOfRactangle(2,2);
 // console.log(r2)
